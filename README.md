@@ -2,21 +2,21 @@
 
 Current Version:
 
-Selenium: 4.16.0 --- Update date: Dec 15, 2023
+Selenium: 4.21.0 --- Update date: Jun 15, 2024
 
 IE Driver: 4.14.0 --- Update date: Oct 15, 2023
 
-Chrome Driver: 123.0.6312.122 --- Update date: Apr 12, 2024
+Chrome Driver: 126.0.6478.61 --- Update date: Jun 15, 2024
 
 Google Chrome won't support Windows 7 and 8.1 after v109.0.5414.120. Also v109.0.5414.120 is the last version on Windows 7 and 8.1!
 
 Gecko Driver: 0.34.0 --- Update date: Jan 15, 2024
 
-Edge Driver: 123.0.2420.81 --- Update date: Apr 12, 2024
+Edge Driver: 126.0.2592.56 --- Update date: Jun 15, 2024
 
 Microsoft Edge won't support Windows 7 and 8.1 after v109.0.1518.78. Also v109.0.1518.78 is the last version on Windows 7 and 8.1!
 
-Eclipse: IDE 2023-12 v4.30 --- Update date: Dec 15, 2023
+Eclipse: IDE 2024-6 v4.32 --- Update date: Jun 15, 2024
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
