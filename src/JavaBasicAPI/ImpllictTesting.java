@@ -22,7 +22,7 @@ public class ImpllictTesting {
   public void ImpllictTest() throws InterruptedException {
 	  driver.get("http://www.baidu.com");
 	  
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  //用implicitlyWait 方法设定查找页面元素等待时间，调用findElement方法时没有立刻
 	  //找到定位元素会等待设定的等待时长，如果还没有找到则抛出NoSuchElementException
 	  

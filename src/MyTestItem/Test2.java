@@ -23,7 +23,7 @@ public class Test2 {
   @Test(priority = 0)
   public void CookieTestIE() {
 	  driver.navigate().to(wangzhi);
-	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //隐式等待30秒
+	  //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //隐式等待30秒
 	  Assert.assertEquals(driver.getTitle(), titleName);
 	  //Assert.assertTrue(false, driver.getTitle());
 	  Assert.assertEquals(driver.getCurrentUrl(), wangzhi);
@@ -34,7 +34,7 @@ public class Test2 {
   @Test(priority = 1)
   public void CookieTestChrome() {
 	  driver2.navigate().to(wangzhi);
-	  driver2.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //隐式等待30秒
+	  //driver2.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //隐式等待30秒
 	  Assert.assertEquals(driver2.getTitle(), titleName);
 	  //Assert.assertTrue(false, driver.getTitle());
 	  Assert.assertEquals(driver2.getCurrentUrl(), wangzhi);

@@ -30,7 +30,7 @@ public class TesseractTest {
 
         WebDriver driver = GetBrowserDriver.GetChromeDriver();
         driver.get("file:///e:/code/validation.html");
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         WebElement element = driver.findElement(By.xpath("//img"));
 
         // take screen shot for element

@@ -109,6 +109,7 @@ public class GetBrowserDriver {
 			System.setProperty("webdriver.edge.driver", EDriver.toString());
 			EdgeOptions options = new EdgeOptions();
 			options.addArguments("--remote-allow-origins=*");
+			options.addArguments("--edge-skip-compat-layer-relaunch");
 			driver = new EdgeDriver(options);
 			driver.manage().window().maximize();
 		}

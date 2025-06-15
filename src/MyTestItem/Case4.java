@@ -25,7 +25,7 @@ public class Case4 {
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
     baseUrl = "http://cn.bing.com";
-    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+    //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
   }
 
   @Test

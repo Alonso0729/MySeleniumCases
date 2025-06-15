@@ -64,7 +64,7 @@ public class CaptureImageTesting {
   @BeforeMethod
   public void beforeMethod() throws Exception {
 	  driver = GetBrowserDriver.GetChromeDriver();
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //等待10秒
+	  //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //等待10秒
   }
 
   @AfterMethod
